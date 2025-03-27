@@ -1,48 +1,42 @@
-Executive Retail Sales Analytics Dashboard
-This Tableau dashboard provides an interactive view of key sales and profit metrics for Ag-Superstore across different regions, categories, and time periods.
+# 📊 Executive Retail Sales Analytics
 
-📊 Key Insights
-Overall Performance:
+## Overview
+This dashboard provides insights into the **Executive Retail Sales** performance, covering key metrics such as sales, profit, quantity, regional performance, and category analysis.
 
-$958K Year-To-Date (YTD) Sales
+## 🔍 Key Insights
 
-$131K YTD Profit
+### 📈 Overall Performance
+- **YTD Sales:** $1.747M
+- **YTD Profits:** $236K
+- **YTD Quantity Sold:** 28K units
+- **YTD Average Discount:** 15.35%
 
-17K YTD Quantity Sold
+### 🌍 Regional Sales Performance
+- **West Region**: Best performing, exceeding the goal with **85,855 units**.
+- **Central Region**: Slightly positive performance.
+- **East & South Regions**: Underperformed with negative sales deviations:
+  - East: **-24,511**
+  - South: **-6,382**
 
-15.70% YTD Average Discount
+### ⏳ Best Performing Time Period
+- **September** recorded the **highest sales and profits**.
+- Sales peaked around **mid-2018** based on the time-series trend.
 
-Regional Performance:
+### 🏆 Top-Selling Product Categories
+- **Furniture:** Chairs ($286K) and Tables ($158K) performed well.
+- **Office Supplies:** Strong sales in Storage and Binders.
+- **Technology:** Phones ($260K) and Copiers among top contributors.
 
-The West and Central regions achieved the highest sales.
+### 🌎 Geographic Sales Trends
+- **West & Central regions** performed the best.
+- Sales were concentrated in **major urban areas**.
+- **New York City** was the **best performer over the last two years**.
 
-Sales vs. Goal analysis indicates a significant achievement in the West region.
+## 📌 Recommendations
+✅ Improve sales in **East & South regions** through strategic interventions.
+✅ Maintain strong inventory & marketing for **high-performing categories** (Phones, Chairs).
+✅ Leverage **high-performing timeframes** (e.g., September) for targeted promotional campaigns.
 
-Category & Sub-Category Trends:
-
-Furniture leads in profitability, with Chairs generating the most revenue.
-
-Office Supplies and Technology contribute significantly, but with variations in profit margins.
-
-Sales & Profit Over Time:
-
-March and September saw the highest peaks in sales.
-
-Profitability trends align with high-sales months but show variations in margin.
-
-Geographical Sales Insights:
-
-A map visualization highlights high-performing areas (green) and underperforming areas (red).
-
-Large sales clusters are observed in key metropolitan regions.
-
-🛠 Features
-Interactive filters to explore data by region, category, segment, and time.
-
-Goal tracking to compare actual sales against targets.
-
-Profitability trends by month and sub-category.
-
-📌 This dashboard provides a data-driven approach to understanding retail sales performance and identifying growth opportunities.
-
-This README provides a clear summary for GitHub, highlighting the value of your Tableau dashboard. Let me know if you'd like to refine it further! 🚀
+---
+📊 **Data Source:** Internal Retail Sales Data  
+🗺️ **Visualization Tool:** Tableau / Power BI
